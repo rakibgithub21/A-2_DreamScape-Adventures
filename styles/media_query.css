@@ -1,0 +1,23 @@
+/* responsive  mobile devices */
+@media screen and (max-width:600px) {
+    nav{
+        padding-right:  20px;
+        padding-left: 20px;
+    }
+    .nav-link {
+        display: none;
+    }
+
+    .nav-title {
+        font-size: 1.3rem;
+    }
+
+    .logo img {
+        width: 28.724px;
+        height: 33.516px;
+    }
+
+    .menu {
+        display: block;
+    }
+}
