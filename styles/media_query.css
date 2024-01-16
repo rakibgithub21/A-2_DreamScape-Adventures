@@ -207,10 +207,12 @@
         top: 60%;
         left: 50%;
     }
-    .discount-logo h5{
+
+    .discount-logo h5 {
         font-size: 14px;
     }
-    .discount-logo h3{
+
+    .discount-logo h3 {
         font-size: 20px;
     }
 
@@ -234,5 +236,39 @@
 
     .copyright {
         margin-top: 30px;
+    }
+
+
+
+
+
+
+
+
+    .banner-section{
+        padding: 20px;
+    }
+    .banner-input {
+        flex-direction: column;
+        padding: 30px 50px;
+
+    }
+
+    .banner-input input {
+        width: 100%;
+
+
+    }
+
+    .banner-input {
+        margin: 0 50px;
+    }
+
+    .fa-magnifying-glass {
+        top:35px;
+    }
+    .fa-angle-down{
+        left: 290px;
+        bottom: 30px;
     }
 }
