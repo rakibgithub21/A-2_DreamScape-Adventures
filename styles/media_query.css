@@ -165,7 +165,24 @@
 
 
 
+    /* customer review */
+    .customer-review{
+        padding: 20px;
+    }
+    .review-container{
+        grid-template-columns: 1fr;
 
+    }
+
+    .card{
+        flex-direction: column;
+    }
+
+    .card-text h4{
+        text-align: center;
+    }
+
+    /* customer review */
 
 
 

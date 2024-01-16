@@ -306,6 +306,83 @@ nav .logo .nav-title span,
 
 
 
+/* what our our customer says */
+.customer-review {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.review-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 200px;
+}
+
+.container-left h1 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #ff226f;
+}
+
+.container-left p {
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.container-left button {
+    padding: 20px 30px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right,
+            #ff226f,
+            #fe6769);
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.container-right {
+    display: grid;
+    gap: 2rem;
+}
+
+.card {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card img {
+    max-width: 120px;
+}
+
+.card-content {
+    display: flex;
+    gap: 15px;
+}
+
+
+
+.card-text p {
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.card-text h4 {
+    text-align: right;
+    color: #8a0536;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 
 
 /* footer styles */
