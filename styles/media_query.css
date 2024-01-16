@@ -25,6 +25,35 @@
     .menu {
         display: block;
     }
+    /* banner */
+        .banner-section {
+            padding: 20px;
+        }
+    
+        .banner-input {
+            flex-direction: column;
+            padding: 30px 50px;
+    
+        }
+    
+        .banner-input input {
+            width: 100%;
+    
+    
+        }
+    
+        .banner-input {
+            margin: 0 50px;
+        }
+    
+        .fa-magnifying-glass {
+            top: 35px;
+        }
+    
+        .fa-angle-down {
+            left: 290px;
+            bottom: 30px;
+        }
 
     /* responsive nav bar design end */
 
@@ -245,30 +274,5 @@
 
 
 
-    .banner-section{
-        padding: 20px;
-    }
-    .banner-input {
-        flex-direction: column;
-        padding: 30px 50px;
-
-    }
-
-    .banner-input input {
-        width: 100%;
-
-
-    }
-
-    .banner-input {
-        margin: 0 50px;
-    }
-
-    .fa-magnifying-glass {
-        top:35px;
-    }
-    .fa-angle-down{
-        left: 290px;
-        bottom: 30px;
-    }
+    
 }
