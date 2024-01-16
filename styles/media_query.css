@@ -28,6 +28,9 @@
 
     /* responsive nav bar design end */
 
+
+
+    /* popular tours  */
     .popular-tours-section {
         flex-direction: column;
         padding: 20px;
@@ -44,5 +47,38 @@
 
     .tour-img {
         width: 100%;
+    }
+
+
+    /* why choose us */
+    .hotel_service-container {
+        flex-direction: column;
+    }
+
+    .choose-us-section {
+        padding: 20px;
+    }
+
+    .choose-us-section h3 {
+        font-size: 1.25rem;
+    }
+
+    .choose-us-text {
+        width: 100%;
+    }
+
+    .hotel {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .best-price {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .service {
+        width: 100%;
+        padding: 20px;
     }
 }
