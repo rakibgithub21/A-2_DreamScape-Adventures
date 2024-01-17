@@ -32,7 +32,7 @@
     
         .banner-input {
             flex-direction: column;
-            padding: 30px 50px;
+            /* padding: 30px 50px; */
     
         }
     
@@ -51,7 +51,7 @@
         }
     
         .fa-angle-down {
-            left: 290px;
+            left: 280px;
             bottom: 30px;
         }
 
